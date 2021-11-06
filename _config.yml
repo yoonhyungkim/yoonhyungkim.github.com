@@ -131,10 +131,10 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-       url: "yh960909@naver.com"
-    - label: "Twitter"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #    url: "yh960909@naver.com"
+     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
     - label: "Facebook"
