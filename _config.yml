@@ -25,27 +25,9 @@ url                      : "https://yoonhyungkim.github.com/" # the base hostnam
 baseurl                  : #"/blog" # the subpath of your site, e.g. "/blog"
 repository               : "yoonhyungkim/yoonhyungkim.github.com" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/images/Bart_Simpson_200px.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Kim`s Warehouse(KW)" # overrides the website title displayed in the masthead, use " " for no title
-=======
-minimal_mistakes_skin    : "mint" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", , "plum", "sunrise"
-
-# Site Settings
-locale                   : "ko-KR"
-
-title                    : "Kim's Study Warehouse (KSW)"
-title_seperator          : "-"
-subtitle                 : "Version 1.0" # site tagline that appears below site title in masthead
-name                     : "김윤형"
-description              : "Focused on digital circuit, Physical Implementation and maybe shell script? "
-url                      : "htps://yoonhyungkim.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
-repository               : "yoonhyungkim/yoonhyungkim.github.com" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "기록을 남기는  엔지니어"  # overrides the website title displayed in the masthead, use " " for no title
->>>>>>> a7b78eec5092cc3b6bfa3bc3bf569798eff5a79f
-breadcrumbs              : true # true, false (default)
+# breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -120,15 +102,9 @@ analytics:
 
 # Site Author
 author:
-<<<<<<< HEAD
   name             : "Yoon"
   avatar           : "/images/profile/KakaoTalk_20211107_235642365.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "회로 설계 분야 새싹입니다! <br> 잘못되거나 부족한 부분을 댓글로 알려주시면 감사하겠습니다. "
-=======
-  name             : "김윤형"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "혼자 어렵게 이해한 내용을 기록하고자 합니다! <br> 더 자세한 정보나 잘못된 부분을 알려주시는 건 향상 감사드립니다~"
->>>>>>> a7b78eec5092cc3b6bfa3bc3bf569798eff5a79f
   location         : "Republic of Korea"
   email            : "yh960909@naver.com"
   links:
@@ -299,7 +275,7 @@ compress_html:
     envs: development
 
 
-# Defaults Post들에 적용될 기본 설정들
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -308,14 +284,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-<<<<<<< HEAD
       read_time: true
-      comments:  true
+      comments: # true
       share: true
       related: true
-=======
-        # read_time: true
-        # comments:  true
-        # share: true
-        # related: true
->>>>>>> a7b78eec5092cc3b6bfa3bc3bf569798eff5a79f
